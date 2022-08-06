@@ -1,0 +1,100 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.login-container {
+  background: url(/images/login/login-img.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  max-width: 600px;
+  font-size: 0.8em;
+  box-shadow: 0 2px 8px 0 rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 25px 35px;
+  color: #fff;
+  margin: 20px 30px;
+}
+
+.login-box form {
+}
+
+.login-box form .input-group {
+  margin: 30px 0;
+}
+
+.login-box form .input-group label {
+  display: block;
+  font-size: 1.5em;
+}
+
+.login-box form .input-group input {
+  border: none;
+  border-radius: 20px;
+  background: none;
+  border: 1px solid #fff;
+  margin-top: 20px;
+  padding: 10px;
+  color: #fff;
+  width: 100%;
+  outline: none;
+}
+
+.login-box form .do-you-have {
+}
+
+.login-box form .do-you-have a {
+  color: #eb4d4b;
+}
+
+.login-box form .submit-btn-container {
+  text-align: center;
+}
+
+.login-box form .submit-btn-container input {
+  width: 200px;
+  border: none;
+  border-radius: 35px;
+  background-color: #eb4d4b;
+  color: #fff;
+  padding: 12px 40px;
+  font-size: 1.3em;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+  outline: none;
+}
+
+.login-box .social-auth {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.login-box .social-auth a {
+  color: #fff;
+  font-size: 1.9em;
+}
+
+.login-box .social-auth a i {
+}
+
+.login-img-contaier {
+  display: flex;
+}
+
+.login-img-contaier img {
+}
